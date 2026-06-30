@@ -1,0 +1,11 @@
+{
+  "name": "Kelev Security SARL",
+  "short_name": "Kelev",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0B",
+  "theme_color": "#C6A15B",
+  "icons": [
+    { "src": "/logo.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ]
+}
