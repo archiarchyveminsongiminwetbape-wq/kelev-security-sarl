@@ -23,7 +23,7 @@ export default function FloatingButtons() {
         href="https://wa.me/237655070707"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-all duration-300 hover:scale-110 group"
+        className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-brand-gold rounded-full flex items-center justify-center shadow-[0_20px_60px_-20px_rgba(198,161,91,0.7)] hover:bg-[#b6924c] transition-all duration-300 hover:scale-110 group"
         aria-label="WhatsApp"
       >
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-7 h-7 text-white">
@@ -39,7 +39,7 @@ export default function FloatingButtons() {
       {showBackToTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 left-6 z-50 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center shadow-lg hover:bg-brand-gold/80 transition-all duration-300 hover:scale-110 group"
+          className="fixed bottom-6 left-6 z-50 w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center shadow-[0_20px_60px_-20px_rgba(198,161,91,0.7)] hover:bg-[#b6924c] transition-all duration-300 hover:scale-110 group"
           aria-label="Back to top"
         >
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6 text-neutral-900">

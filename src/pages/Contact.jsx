@@ -104,7 +104,7 @@ export default function Contact() {
   return (
     <section className="section">
       <div className="container-page max-w-2xl">
-        <Seo title={t('seo.contact.title')} description={t('seo.contact.desc')} />
+        <Seo title={t('seo.contact.title')} description={t('seo.contact.desc')} keywords={t('seo.contact.keywords')} />
         <h1 className="h1">{t('contact.title')}</h1>
         <p className="lead mt-3">{t('contact.lead')}</p>
         {!formspreeEndpoint && (

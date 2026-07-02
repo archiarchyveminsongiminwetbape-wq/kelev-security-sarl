@@ -6,7 +6,7 @@ export default function Privacy() {
   return (
     <section className="section">
       <div className="container-page max-w-3xl">
-        <Seo title={t('seo.privacy.title')} description={t('seo.privacy.desc')} />
+        <Seo title={t('seo.privacy.title')} description={t('seo.privacy.desc')} keywords={t('seo.privacy.keywords')} />
         <h1 className="h1 mb-4">{t('privacy.title')}</h1>
         <p className="text-sm text-neutral-400 mb-8">{t('privacy.last_updated')}</p>
         

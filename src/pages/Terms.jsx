@@ -6,7 +6,7 @@ export default function Terms() {
   return (
     <section className="section">
       <div className="container-page max-w-3xl">
-        <Seo title={t('seo.terms.title')} description={t('seo.terms.desc')} />
+        <Seo title={t('seo.terms.title')} description={t('seo.terms.desc')} keywords={t('seo.terms.keywords')} />
         <h1 className="h1 mb-4">{t('terms.title')}</h1>
         <p className="text-sm text-neutral-400 mb-8">{t('terms.last_updated')}</p>
         

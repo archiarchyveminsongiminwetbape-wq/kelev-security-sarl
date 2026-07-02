@@ -3,5 +3,7 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 Disallow: /api/
+Disallow: /politique-confidentialite
+Disallow: /conditions-utilisation
 
 Sitemap: https://kelvesecurity.com/sitemap.xml

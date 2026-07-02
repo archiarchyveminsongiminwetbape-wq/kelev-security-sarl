@@ -37,14 +37,14 @@ export default function Newsletter() {
     <div className="card">
       <h3 className="text-lg font-semibold mb-2">{t('newsletter.title')}</h3>
       <p className="text-sm text-neutral-300 mb-4">{t('newsletter.description')}</p>
-      <form onSubmit={handleSubmit} className="flex gap-2">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-3 sm:flex-row">
         <input
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder={t('newsletter.placeholder')}
           required
-          className="flex-1 px-4 py-2 rounded-md bg-neutral-900 border border-neutral-700 text-neutral-200 placeholder-neutral-500 focus:outline-none focus:border-brand-gold"
+          className="flex-1 px-4 py-3 rounded-2xl bg-neutral-900/90 border border-white/10 text-neutral-100 placeholder:text-neutral-500 focus:outline-none focus:border-brand-gold focus:ring-1 focus:ring-brand-gold/30"
         />
         <button
           type="submit"

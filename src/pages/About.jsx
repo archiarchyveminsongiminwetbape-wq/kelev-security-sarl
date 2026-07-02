@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className="section">
       <div className="container-page max-w-3xl">
-        <Seo title={t('seo.about.title')} description={t('seo.about.desc')} />
+        <Seo title={t('seo.about.title')} description={t('seo.about.desc')} keywords={t('seo.about.keywords')} />
         <h1 className="h1">{t('about.title')}</h1>
         <p className="lead mt-4">{t('about.lead')}</p>
         

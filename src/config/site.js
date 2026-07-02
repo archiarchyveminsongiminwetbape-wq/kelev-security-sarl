@@ -3,7 +3,7 @@ export const site = {
   phone: '+237 655070707',
   phoneLink: '+237655070707',
   email: 'contact@kelvesecurity.com',
-  address: 'Yaoundé, Cameroun',
+  address: 'Douala, Cameroun',
   hours: 'Lundi à dimanche, 08h–18h',
   forms: {
     // Remplacez par votre ID Formspree (ex: "xgeqrbqy"). Voir https://formspree.io

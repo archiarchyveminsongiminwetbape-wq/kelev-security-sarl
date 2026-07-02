@@ -39,7 +39,7 @@ export default function CaseStudies() {
   return (
     <section className="section">
       <div className="container-page max-w-4xl">
-        <Seo title={t('seo.case_studies.title')} description={t('seo.case_studies.desc')} />
+        <Seo title={t('seo.case_studies.title')} description={t('seo.case_studies.desc')} keywords={t('seo.case_studies.keywords')} />
         <h1 className="h1 mb-2">{t('case_studies.title')}</h1>
         <p className="lead mb-8">{t('case_studies.lead')}</p>
         

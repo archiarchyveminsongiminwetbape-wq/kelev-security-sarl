@@ -39,7 +39,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col text-white overflow-x-hidden">
       <EmergencyBanner />
       <Navbar />
       <main className="flex-1">

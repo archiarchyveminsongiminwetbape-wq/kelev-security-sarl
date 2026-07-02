@@ -1,20 +1,74 @@
 export const photos = [
   {
-    id: 'patrouille-nuit',
-    title: 'Patrouille de nuit',
+    id: 'photo-1',
+    title: 'Équipe K9',
     date: '2025-09-05',
-    src: 'https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1200&auto=format&fit=crop'
+    src: '/media/photos/1.jpeg'
   },
   {
-    id: 'controle-acces',
-    title: "Contrôle d'accès",
+    id: 'photo-2',
+    title: 'Entraînement',
     date: '2025-08-28',
-    src: 'https://images.unsplash.com/photo-1628348068343-cb4b1b4bf3c5?q=80&w=1200&auto=format&fit=crop'
+    src: '/media/photos/2.jpeg'
   },
   {
-    id: 'poste-gardiennage',
-    title: 'Poste de gardiennage',
+    id: 'photo-3',
+    title: 'Patrouille',
     date: '2025-07-14',
-    src: 'https://images.unsplash.com/photo-1573167243872-43c6433b9f23?q=80&w=1200&auto=format&fit=crop'
+    src: '/media/photos/3.jpeg'
+  },
+  {
+    id: 'photo-4',
+    title: 'Mission',
+    date: '2025-07-14',
+    src: '/media/photos/4.jpeg'
+  },
+  {
+    id: 'photo-5',
+    title: 'Équipe',
+    date: '2025-07-14',
+    src: '/media/photos/5.jpeg'
+  },
+  {
+    id: 'photo-6',
+    title: 'Chiens de travail',
+    date: '2025-07-14',
+    src: '/media/photos/6.jpeg'
+  },
+  {
+    id: 'photo-8',
+    title: 'Formation',
+    date: '2025-07-14',
+    src: '/media/photos/8.jpeg'
+  },
+  {
+    id: 'photo-9',
+    title: 'Opération',
+    date: '2025-07-14',
+    src: '/media/photos/9.jpeg'
+  },
+  {
+    id: 'photo-11',
+    title: 'Intervention',
+    date: '2025-07-14',
+    src: '/media/photos/11.jpeg'
+  },
+  {
+    id: 'photo-12',
+    title: 'Gardiennage',
+    date: '2025-07-14',
+    src: '/media/photos/12.jpeg'
+  },
+  {
+    id: 'photo-13',
+    title: 'Sécurité',
+    date: '2025-07-14',
+    src: '/media/photos/13.jpeg'
+  },
+  {
+    id: 'photo-14',
+    title: 'Protection',
+    date: '2025-07-14',
+    src: '/media/photos/14.jpeg'
   }
 ]

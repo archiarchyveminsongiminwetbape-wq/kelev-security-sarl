@@ -45,7 +45,7 @@ export default function Careers() {
   return (
     <section className="section">
       <div className="container-page max-w-4xl">
-        <Seo title={t('seo.careers.title')} description={t('seo.careers.desc')} />
+        <Seo title={t('seo.careers.title')} description={t('seo.careers.desc')} keywords={t('seo.careers.keywords')} />
         <h1 className="h1 mb-2">{t('careers.title')}</h1>
         <p className="lead mb-8">{t('careers.lead')}</p>
         

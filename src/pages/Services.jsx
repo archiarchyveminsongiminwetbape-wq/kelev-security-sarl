@@ -27,7 +27,7 @@ export default function Services() {
   return (
     <section className="section">
       <div className="container-page px-4">
-        <Seo title={t('seo.services.title')} description={t('seo.services.desc')} />
+        <Seo title={t('seo.services.title')} description={t('seo.services.desc')} keywords={t('seo.services.keywords')} />
         <h1 className="h1 mb-2">{t('services.title')}</h1>
         <p className="lead mb-8">{t('services.lead')}</p>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

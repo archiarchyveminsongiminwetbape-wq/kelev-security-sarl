@@ -37,7 +37,7 @@ export default function Team() {
   return (
     <section className="section">
       <div className="container-page max-w-4xl">
-        <Seo title={t('seo.team.title')} description={t('seo.team.desc')} />
+        <Seo title={t('seo.team.title')} description={t('seo.team.desc')} keywords={t('seo.team.keywords')} />
         <h1 className="h1 mb-2">{t('team.title')}</h1>
         <p className="lead mb-8">{t('team.lead')}</p>
         

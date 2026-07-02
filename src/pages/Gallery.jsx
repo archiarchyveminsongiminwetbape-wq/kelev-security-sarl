@@ -81,7 +81,7 @@ export default function Gallery() {
   return (
     <section className="section">
       <div className="container-page max-w-5xl">
-        <Seo title={t('seo.gallery.title')} description={t('seo.gallery.desc')} />
+        <Seo title={t('seo.gallery.title')} description={t('seo.gallery.desc')} keywords={t('seo.gallery.keywords')} />
         <h1 className="h1 mb-2">{t('gallery.title')}</h1>
         <p className="lead mb-8">{t('gallery.lead')}</p>
         

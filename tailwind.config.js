@@ -9,8 +9,10 @@ export default {
       colors: {
         brand: {
           gold: '#C6A15B',
-          /**dark: '#0B0B0B',*/
         },
+      },
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'sans-serif'],
       },
     },
   },

@@ -9,7 +9,7 @@ export default function Testimonials() {
   return (
     <section className="section">
       <div className="container-page max-w-4xl">
-        <Seo title={t('seo.testimonials.title')} description={t('seo.testimonials.desc')} />
+        <Seo title={t('seo.testimonials.title')} description={t('seo.testimonials.desc')} keywords={t('seo.testimonials.keywords')} />
         <h1 className="h1 mb-2">{t('testimonials.title')}</h1>
         <p className="lead mb-8">{t('testimonials.lead')}</p>
         

@@ -31,7 +31,7 @@ export default function FAQ() {
   return (
     <section className="section">
       <div className="container-page max-w-4xl">
-        <Seo title={t('seo.faq.title')} description={t('seo.faq.desc')} />
+        <Seo title={t('seo.faq.title')} description={t('seo.faq.desc')} keywords={t('seo.faq.keywords')} />
         <h1 className="h1 mb-2">{t('faq.title')}</h1>
         <p className="lead mb-8">{t('faq.lead')}</p>
         

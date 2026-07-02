@@ -18,7 +18,7 @@ export default function Blog() {
   return (
     <section className="section">
       <div className="container-page">
-        <Seo title={t('seo.blog.title')} description={t('seo.blog.desc')} />
+        <Seo title={t('seo.blog.title')} description={t('seo.blog.desc')} keywords={t('seo.blog.keywords')} />
         <h1 className="h1 mb-6">{t('blog.title')}</h1>
 
         <div className="flex items-center gap-2 mb-8">
@@ -74,7 +74,7 @@ export default function Blog() {
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {photos.map((p) => (
               <figure key={p.id} className="overflow-hidden rounded-md border border-neutral-800">
-                <img src={p.src} alt={p.title || ''} loading="lazy" decoding="async" className="w-full h-48 object-cover hover:scale-[1.02] transition" />
+                <img src={p.src} alt={p.title || ''} loading="lazy" decoding="async" className="w-full h-72 object-cover hover:scale-[1.02] transition" />
                 <figcaption className="p-2 text-xs text-neutral-400">{p.title}</figcaption>
               </figure>
             ))}

@@ -50,7 +50,7 @@ export default function Partners() {
   return (
     <section className="section">
       <div className="container-page max-w-4xl">
-        <Seo title={t('seo.partners.title')} description={t('seo.partners.desc')} />
+        <Seo title={t('seo.partners.title')} description={t('seo.partners.desc')} keywords={t('seo.partners.keywords')} />
         <h1 className="h1 mb-2">{t('partners.title')}</h1>
         <p className="lead mb-8">{t('partners.lead')}</p>
         
