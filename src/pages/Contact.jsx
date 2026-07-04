@@ -141,7 +141,6 @@ export default function Contact() {
             <label className="block text-sm mb-1">{t('contact.field.service')}</label>
             <select name="service" value={form.service} onChange={onChange} className={`w-full rounded-md bg-neutral-900 border px-3 py-2 ${errors.service ? 'border-red-500' : 'border-neutral-700'}`} required>
               <option value="">{t('select.choose')}</option>
-              <option>{t('service.option.guard')}</option>
               <option>{t('service.option.patrol')}</option>
               <option>{t('service.option.event')}</option>
               <option>{t('service.option.remote')}</option>

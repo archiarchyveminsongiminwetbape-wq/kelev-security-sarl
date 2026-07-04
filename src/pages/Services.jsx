@@ -4,9 +4,6 @@ import { useI18n } from '../i18n/i18n.jsx'
 export default function Services() {
   const { t } = useI18n()
   const services = [
-    { title: t('services.guard.title'), icon: (
-      <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6 text-brand-gold"><path d="M12 3l7 4v5c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V7l7-4z" stroke="currentColor" strokeWidth="1.5"/></svg>
-    ), items: [t('services.guard.item1'), t('services.guard.item2'), t('services.guard.item3')] },
     { title: t('services.patrol.title'), icon: (
       <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6 text-brand-gold"><path d="M4 13l4 4 12-12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
     ), items: [t('services.patrol.item1'), t('services.patrol.item2'), t('services.patrol.item3')] },

@@ -4,8 +4,8 @@ export const faqData = [
     category: 'general',
     question: 'Quels types de services de sécurité proposez-vous ?',
     enQuestion: 'What types of security services do you offer?',
-    answer: 'Nous proposons une gamme complète de services de sécurité : gardiennage statique, rondes et interventions, sécurité événementielle, télésurveillance, installation et maintenance de systèmes CCTV, audit et conseil en sécurité.',
-    enAnswer: 'We offer a complete range of security services: static guarding, patrols and interventions, event security, remote monitoring, CCTV installation and maintenance, security audit and consulting.'
+    answer: 'Nous proposons une gamme complète de services de sécurité : rondes et interventions, sécurité événementielle, télésurveillance, installation et maintenance de systèmes CCTV, audit et conseil en sécurité.',
+    enAnswer: 'We offer a complete range of security services: patrols and interventions, event security, remote monitoring, CCTV installation and maintenance, security audit and consulting.'
   },
   {
     id: 2,

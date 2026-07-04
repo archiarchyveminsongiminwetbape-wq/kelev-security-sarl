@@ -11,8 +11,8 @@ export const testimonials = [
     id: 2,
     name: 'Marie-Claire T.',
     company: 'Propriétaire, Résidence Les Palmiers',
-    text: 'Le service de gardiennage pour notre résidence est impeccable. Les agents sont courtois, vigilants et toujours disponibles. Je recommande vivement leurs services.',
-    enText: 'The guarding service for our residence is impeccable. The agents are courteous, vigilant and always available. I highly recommend their services.',
+    text: 'Le service de sécurité pour notre résidence est impeccable. Les agents sont courtois, vigilants et toujours disponibles. Je recommande vivement leurs services.',
+    enText: 'The security service for our residence is impeccable. The agents are courteous, vigilant and always available. I highly recommend their services.',
     rating: 5
   },
   {

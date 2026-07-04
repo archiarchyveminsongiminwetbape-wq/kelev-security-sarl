@@ -77,7 +77,7 @@ export default function Home() {
         <div className="absolute top-20 left-10 w-72 h-72 bg-brand-gold/5 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-brand-gold/5 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-brand-gold/10 to-transparent rounded-full blur-3xl opacity-30"></div>
-        
+
         <div className="container-page px-4 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex flex-wrap items-center gap-2 px-4 py-2 rounded-full border border-brand-gold/30 bg-brand-gold/10 backdrop-blur-sm text-sm text-brand-gold animate-fade-in animate-glow">
@@ -90,7 +90,7 @@ export default function Home() {
               <span className="w-1.5 h-1.5 rounded-full bg-brand-gold animate-pulse"></span>
               <span>{t('home.badge2')}</span>
             </div>
-            <h1 className="h1 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-brand-gold via-amber-200 to-brand-gold bg-300% animate-gradient text-4xl sm:text-6xl lg:text-7xl animate-slide-up">{t('home.title')}</h1>
+            <h1 className="h1 mt-8 text-transparent bg-clip-text bg-gradient-to-r from-brand-gold via-amber-200 to-brand-gold bg-300% animate-gradient text-4xl sm:text-6xl lg:text-7xl animate-slide-up"> {t('home.title')}</h1>
             <p className="lead mt-6 text-lg sm:text-xl px-2 sm:px-0 max-w-2xl mx-auto leading-relaxed animate-slide-up" style={{animationDelay: '0.2s'}}>{t('home.lead')}</p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up" style={{animationDelay: '0.4s'}}>
               <Link to="/contact" className="btn-primary w-full sm:w-auto px-8 py-3 text-lg animate-glow">
@@ -128,10 +128,7 @@ export default function Home() {
           <ScrollReveal delay={100}>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {[
-                { title: t('home.service1.title'), desc: t('home.service1.desc'), icon: (
-                  <svg viewBox="0 0 24 24" fill="none" className="h-8 w-8 text-brand-gold"><path d="M12 3l7 4v5c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V7l7-4z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                ) },
-                { title: t('home.service2.title'), desc: t('home.service2.desc'), icon: (
+                  { title: t('home.service2.title'), desc: t('home.service2.desc'), icon: (
                   <svg viewBox="0 0 24 24" fill="none" className="h-8 w-8 text-brand-gold"><path d="M4 13l4 4 12-12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
                 ) },
                 { title: t('home.service3.title'), desc: t('home.service3.desc'), icon: (
