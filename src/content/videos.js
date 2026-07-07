@@ -1,16 +1,16 @@
 export const videos = [
   {
-    id: 'intro-kelev',
-    title: 'Présentation Kelev Security SARL',
-    date: '2025-09-20',
-    thumbnail: 'https://images.unsplash.com/photo-1545239351-1141bd82e8a6?q=80&w=1200&auto=format&fit=crop',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+    id: 'video-1',
+    title: 'Vidéo Kelev Security',
+    date: '2025-07-07',
+    thumbnail: 'https://img.youtube.com/vi/zqaWZwAvqto/hqdefault.jpg',
+    url: 'https://youtu.be/zqaWZwAvqto'
   },
   {
-    id: 'conseils-securite',
-    title: 'Conseils de sécurité pour vos locaux',
-    date: '2025-08-10',
-    thumbnail: 'https://images.unsplash.com/photo-1504615755583-2916b52192d7?q=80&w=1200&auto=format&fit=crop',
-    url: 'https://www.youtube.com/watch?v=oHg5SJYRHA0'
+    id: 'video-2',
+    title: 'Vidéo Kelev Security 2',
+    date: '2025-07-07',
+    thumbnail: 'https://img.youtube.com/vi/otLITHO78HI/hqdefault.jpg',
+    url: 'https://youtu.be/otLITHO78HI'
   }
 ]

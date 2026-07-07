@@ -62,7 +62,23 @@ export default function Blog() {
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {videos.map((v) => (
               <a key={v.id} href={v.url} target="_blank" rel="noreferrer" className="card group">
-                <img src={v.thumbnail} alt={v.title || ''} loading="lazy" decoding="async" className="w-full h-auto rounded-md border border-neutral-800" />
+                <div className="relative aspect-video bg-neutral-900 rounded-md border border-neutral-800 overflow-hidden">
+                  <img 
+                    src={v.thumbnail} 
+                    alt={v.title || ''} 
+                    loading="lazy" 
+                    decoding="async" 
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.target.src = `https://img.youtube.com/vi/${v.url.split('/').pop()}/mqdefault.jpg`;
+                    }}
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <svg className="w-12 h-12 text-white" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  </div>
+                </div>
                 <h3 className="text-sm font-semibold mt-3 group-hover:text-brand-gold">{v.title}</h3>
                 <p className="text-xs text-neutral-400 mt-1">{new Date(v.date).toLocaleDateString(lang === 'en' ? 'en-GB' : 'fr-FR')}</p>
               </a>
